@@ -39,7 +39,7 @@ data:
   # -- Input channels and temporal sampling --
   channels: [aia94, aia131, aia171, aia193, aia211, aia304, aia335, aia1600,
              hmi_m, hmi_bx, hmi_by, hmi_bz, hmi_v]
-  time_delta_input_minutes: [-120, -60]   # Offsets (minutes) of input frames relative to reference timestep
+  time_delta_input_minutes: [-60, -36]   # Offsets (minutes) of input frames relative to reference timestep
   time_delta_target_minutes: 0   # Step size (minutes) between forecast frames
 
   # -- Downstream label alignment (flare catalog → Surya index) --

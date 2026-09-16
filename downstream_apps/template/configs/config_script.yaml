@@ -79,7 +79,7 @@ data:
   #
   # If none is set and the index contains s3:// paths, the run fails immediately with a
   # suggested path — not part-way through the first epoch. ~ and $ENV_VARS are expanded.
-  s3_cache_dir: null
+  s3_cache_dir: /home/jovyan/scratch_space/surya_cache 
 
   # -- S3 transfer tuning --
   # These control boto3's multipart download: how many threads download parts in

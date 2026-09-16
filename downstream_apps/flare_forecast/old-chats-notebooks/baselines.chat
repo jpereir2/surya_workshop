@@ -1,0 +1,436 @@
+{
+  "messages": [
+    {
+      "type": "msg",
+      "body": "what do i need to specify to make it to my own stuff? i was warned that this is shared so i wanna make sure i edit what's needed in my notebook so its specific to me etc.\n\ntmp/surya_workshop/downstream_apps/flare_forecast/1_baseline_template.ipynb",
+      "metadata": {
+        "to_persona": null
+      },
+      "sender": "jpereira",
+      "raw_time": false,
+      "time": 1789500171.896881,
+      "id": "ca089ee1-0efc-40bc-b3b4-f74a85a0a9ac"
+    },
+    {
+      "time": 1789500195.121537,
+      "raw_time": false,
+      "sender": "jpereira",
+      "id": "b2bdfdf3-d712-4e6b-81f4-58e5f7f97f64",
+      "type": "msg",
+      "metadata": {
+        "model": {
+          "settings": {},
+          "id": "sonnet"
+        },
+        "settings": {
+          "__mode__": null
+        },
+        "to_persona": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona"
+      },
+      "body": "what do i need to specify to make it to my own stuff? i was warned that this is shared so i wanna make sure i edit what's needed in my notebook so its specific to me etc.\nim on this notebook now: tmp/surya_workshop/downstream_apps/flare_forecast/1_baseline_template.ipynb"
+    },
+    {
+      "type": "msg",
+      "id": "68418929-fbee-4a52-b442-ad0aac4aba81",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "metadata": {
+        "tool_calls": [
+          {
+            "tool_call_id": "toolu_bdrk_01BdXJe5AFFL5LKEvnEMNB7p",
+            "permission_status": "resolved",
+            "session_id": "d42cf5e5-0a8b-401e-8050-f7fc5c0da306",
+            "selected_option_id": "allow-with-updates",
+            "title": "find flare_forecast template -maxdepth 3 -type f | sort",
+            "raw_output": "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/.ipynb_checkpoints/0_dataset_TESTING-checkpoint.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/.ipynb_checkpoints/0_dataset_dataloader_template-checkpoint.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/.ipynb_checkpoints/1_baseline_template-checkpoint.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/.ipynb_checkpoints/A_shapes_and_broadcasting-checkpoint.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/0_dataset_TESTING.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/0_dataset_dataloader_template.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/1_baseline_template.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/2_finetune_template_1D.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/3_finetune_template_1D.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/ADAPTING.md\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/A_shapes_and_broadcasting.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/assets/.gitkeep\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/assets/scalers.yaml\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/baselines.chat\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/checks-help.chat\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/configs.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/configs/config_script.yaml\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/data/.ipynb_checkpoints/hek_flare_catalog-checkpoint.csv\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/data/hek_flare_catalog.csv\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/datasets/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/datasets/__pycache__/__init__.cpython-312.pyc\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/datasets/__pycache__/flare_dataset.cpython-312.pyc\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/datasets/__pycache__/template_dataset.cpython-312.pyc\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/datasets/flare_dataset.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/datasets/template_dataset.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/download_scalers.sh\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/download_scalers_and_weights.sh\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/git-save.chat\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/image_flip.chat\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/lightning_modules/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/lightning_modules/pl_simple_baseline.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T175554Z_000_data_train_4689.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T180911Z_000_data_train_92.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T181458Z_000_data_train_158.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T182021Z_000_data_train_144.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T182354Z_000_data_train_186.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T183101Z_000_data_train_186.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T185030Z_000_data_train_963.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T185444Z_000_data_train_357.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T190132Z_000_data_train_353.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T200701Z_000_data_train_353.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T200950Z_000_data_train_1643.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T201638Z_000_data_train_729.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T201802Z_000_data_train_729.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T202102Z_000_data_train_729.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T202232Z_000_data_train_729.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T202815Z_000_data_train_529.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T203004Z_000_data_train_529.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T203215Z_000_data_train_131.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T203324Z_000_data_train_131.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T205216Z_000_data_train_131.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T210008Z_000_data_train_333.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T231956Z_000_data_train_193.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260914T232957Z_000_data_train_94.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T000047Z_000_data_train_245.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T005034Z_000_data_train_245.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T005807Z_000_data_train_285.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T010259Z_000_data_train_128.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T010637Z_000_data_train_91.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T144233Z_000_data_train_98.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T144811Z_000_data_train_98.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T150101Z_000_data_train_76.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T154328Z_000_data_train_245.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T160149Z_000_data_train_407.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T160910Z_000_data_train_281.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T175652Z_000_data_train_204.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T180713Z_000_data_train_422.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T182503Z_000_data_train_1305.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T182832Z_000_data_train_1305.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/logs/data/20260915T184035Z_000_data_train_1305.log\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/metrics/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/metrics/template_metrics.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/models/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/models/simple_baseline.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/old-notebooks/.ipynb_checkpoints/0_dataset_TESTING-BACKUP-checkpoint.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/old-notebooks/0_dataset_TESTING-BACKUP.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/plots-xclass-check.chat\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/0_dataset_dataloader_template.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/1_baseline_template.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/2_finetune_template_1D.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/3_finetune_template_1D.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/ADAPTING.md\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/A_shapes_and_broadcasting.ipynb\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/__pycache__/configs.cpython-312.pyc\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/assets/.gitkeep\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/configs.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/configs/config_script.yaml\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/data/hek_flare_catalog.csv\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/datasets/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/datasets/__pycache__/__init__.cpython-312.pyc\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/datasets/__pycache__/template_dataset.cpython-312.pyc\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/datasets/template_dataset.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/download_scalers.sh\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/download_scalers_and_weights.sh\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/lightning_modules/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/lightning_modules/pl_simple_baseline.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/metrics/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/metrics/template_metrics.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/models/__init__.py\n/home/jovyan/tmp/surya_workshop/downstream_apps/template/models/simple_baseline.py",
+            "raw_input": {
+              "command": "find /home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast /home/jovyan/tmp/surya_workshop/downstream_apps/template -maxdepth 3 -type f | sort"
+            },
+            "status": "completed",
+            "permission_options": [
+              {
+                "kind": "allow_once",
+                "name": "Yes",
+                "option_id": "allow-once"
+              },
+              {
+                "name": "Yes, and allow access to template/ and similar commands",
+                "option_id": "allow-with-updates",
+                "kind": "allow_always"
+              },
+              {
+                "kind": "reject_once",
+                "option_id": "reject",
+                "name": "No"
+              }
+            ],
+            "kind": "execute"
+          },
+          {
+            "status": "completed",
+            "tool_call_id": "toolu_bdrk_012WVcMHfKBnAzYdCkocNxpu",
+            "raw_output": "1\t# Adapting the Template for Your Own Task\n2\t\n3\tThis guide walks you through copying the template fine-tuning app and wiring it to a new\n4\tdownstream task. Follow the steps in order \u2014 each one builds on the previous.\n5\t\n6\tThe template task is **solar flare intensity regression** (predicting peak GOES X-ray flux\n7\tfrom SDO image stacks). The numbered scripts and notebooks in this folder give you working\n8\texamples of every step.\n9\t\n10\t**The one rule:** everything generic lives in `workshop_infrastructure/` and is *imported*,\n11\tnever copied. Your app owns only what is specific to your science. If you find yourself\n12\tcopying a file out of `workshop_infrastructure/`, stop \u2014 that is the thing this layout\n13\texists to prevent.\n14\t\n15\t---\n16\t\n17\t## Overview: what the template gives you\n18\t\n19\t```\n20\tdownstream_apps/template/\n21\t\u251c\u2500\u2500 configs/config_script.yaml       \u2190 single source of truth for all parameters\n22\t\u251c\u2500\u2500 configs.py                       \u2190 FlareDataConfig: the ~4 task-specific config fields\n23\t\u251c\u2500\u2500 0_dataset_dataloader_template.ipynb\n24\t\u251c\u2500\u2500 1_baseline_template.ipynb\n25\t\u251c\u2500\u2500 2_finetune_template_1D.ipynb\n26\t\u251c\u2500\u2500 3_finetune_template_1D.py        \u2190 runnable training script (derived from notebook 2)\n27\t\u251c\u2500\u2500 ADAPTING.md                      \u2190 this file\n28\t\u251c\u2500\u2500 datasets/\n29\t\u2502   \u2514\u2500\u2500 template_dataset.py          \u2190 FlareDSDataset (extends HelioNetCDFDataset)\n30\t\u251c\u2500\u2500 lightning_modules/\n31\t\u2502   \u2514\u2500\u2500 pl_simple_baseline.py        \u2190 FlareLightningModule (Lightning wrapper)\n32\t\u251c\u2500\u2500 metrics/\n33\t\u2502   \u2514\u2500\u2500 template_metrics.py          \u2190 FlareMetrics (loss + evaluation metrics)\n34\t\u2514\u2500\u2500 models/\n35\t    \u2514\u2500\u2500 simple_baseline.py           \u2190 RegressionFlareModel (linear baseline)\n36\t```\n37\t\n38\tAnd what it *imports* rather than owning:\n39\t\n40\t| From `workshop_infrastructure/` | What it gives you |\n41\t|---|---|\n42\t| `configs.py` | `DataConfig`, `TrainingConfig`, `ModelConfig`, `load_config()` \u2014 the whole config layer |\n43\t| `datasets/helio.py` | `HelioNetCDFDataset` \u2014 NetCDF loading, local + S3, normalization, frame sampling |\n44\t| `datasets/builders.py` | `build_helio_dataloaders()` \u2014 maps your config onto ~20 dataset arguments |\n45\t| `models/finetune_models.py` | `HelioSpectformer1D` / `HelioSpectformer2D` \u2014 backbone plus a configurable head |\n46\t| `utils.py` | `build_scalers()`, `apply_peft_lora()`, `load_pretrained_weights()`, S3 checkpoint upload |\n47\t\n48\t---\n49\t\n50\t## Step 1 \u2014 Copy the template folder\n51\t\n52\t```bash\n53\tcp -r downstream_apps/template downstream_apps/your_task\n54\t```\n55\t\n56\tThen rename the classes that have \"Flare\" or \"Template\" in their names (Steps 2\u20135 will\n57\ttell you exactly which ones to change).\n58\t\n59\t---\n60\t\n61\t## Step 2 \u2014 Declare your task's config fields (`configs.py`)\n62\t\n63\t**File to edit:** `configs.py`.\n64\t\n65\tThis file is short by design. It subclasses the shared `DataConfig` with the handful of\n66\tfields your task needs, and binds `load_config` to that subclass:\n67\t\n68\t```python\n69\t@dataclass\n70\tclass YourDataConfig(DataConfig):\n71\t    your_catalog_path: str = \"\"\n72\t    your_label_column: str = \"flux\"\n73\t\n74\t    # Any field holding a filesystem path must join this list, so relative values in the\n75\t    # YAML resolve against the config file's directory instead of the working directory.\n76\t    PATH_FIELDS: ClassVar[tuple[str, ...]] = DataConfig.PATH_FIELDS + (\"your_catalog_path\",)\n77\t\n78\t\n79\tload_your_config = partial(load_config, data_cls=YourDataConfig)\n80\t```\n81\t\n82\tYou inherit every generic field \u2014 paths, channels, temporal sampling, all the S3 settings,\n83\t`max_samples` \u2014 without maintaining a copy of them.\n84\t\n85\tTwo behaviors worth knowing:\n86\t\n87\t- **Unknown keys are an error.** If the YAML has a key with no matching field, `load_config()`\n88\t  raises and lists the valid names. So add the field here *first*, then the YAML key.\n89\t- **Paths resolve relative to the config file**, and `~`/`$VARS` are expanded. Never commit an\n90\t  absolute path into someone else's home directory.\n91\t\n92\t---\n93\t\n94\t## Step 3 \u2014 Define your dataset (`datasets/`)\n95\t\n96\t**File to edit:** `datasets/template_dataset.py` \u2192 rename to `your_task_dataset.py`.\n97\t\n98\t`FlareDSDataset` extends `HelioNetCDFDataset` (in `workshop_infrastructure/datasets/helio.py`).\n99\tThe base class handles:\n100\t- Loading NetCDF files from local disk or S3\n101\t- Signum-log normalization per channel\n102\t- Input frame sampling and validity filtering\n103\t\n104\tYou only need to add your task-specific logic in the subclass:\n105\t\n106\t| What to override | Why |\n107\t|---|---|\n108\t| `__init__` | Accept your catalog/label source; pass everything else up via `super().__init__(**kwargs)` |\n109\t| `__getitem__` | Call `super().__getitem__()` to get the image stack, then attach your label |\n110\t\n111\t> **Normalization: know which space you are in.** The dataset applies signum-log\n112\t> compression *and then* a per-channel z-score, so \"undoing the transform\" is ambiguous.\n113\t> `scaler.inverse_transform()` undoes only the z-score, landing in **signum-log** space \u2014\n114\t> that is what `destandardize_channels()` gives the linear baseline, and it is usually what\n115\t> you want as model input, since raw values span many orders of magnitude.\n116\t> `dataset.inverse_transform_data()` undoes **both** stages and returns true **physical**\n117\t> units (DN, Gauss), which is what you want for plotting or a physical-space loss.\n118\t> The full picture is in the \"THE THREE SPACES\" block in\n119\t> `workshop_infrastructure/datasets/helio.py`.\n120\t\n121\tIf your task supplies its own labels (rather than predicting future SDO frames), set\n122\t`kwargs.setdefault(\"load_forecast_frames\", False)` before calling `super().__init__()`, as\n123\t`FlareDSDataset` does. That stops the loader from fetching future frames it will never use \u2014\n124\tworth roughly 1 GB of S3 traffic per sample.\n125\t\n126\t**Key YAML keys that feed into the dataset** (all under `data:`):\n127\t```yaml\n128\tdata:\n129\t  train_data_path: ...           # CSV index of NetCDF files (timestep, path, present)\n130\t  valid_data_path: ...\n131\t  channels: [...]                # Which SDO channels to load\n132\t  time_delta_input_minutes: [0]  # Temporal offsets for input frames\n133\t  time_delta_target_minutes: 60  # Step size between forecast frames\n134\t  s3_anon: true                  # true = public bucket; false = IAM credentials\n135\t  s3_mode: download              # download | simplecache | stream\n136\t  s3_cache_dir: ~/surya_ws_cache # Required unless s3_mode is \"stream\"\n137\t  max_samples: null              # Cap for quick experiments\n138\t```\n139\t\n140\t### Reading from S3\n141\t\n142\tThe pre-built indices in `data/indices/` point at `s3://nasa-surya-bench/...`, so `s3_mode`\n143\tand `s3_cache_dir` decide how your data actually arrives:\n144\t\n145\t| `s3_mode` | Behavior | Needs `s3_cache_dir`? |\n146\t|---|---|---|\n147\t| `download` (default) | Fetches each whole file into the cache with parallel multipart, then opens it locally. **Recommended** \u2014 NetCDF/HDF5 needs random seeks that streaming cannot serve. | Yes |\n148\t| `simplecache` | fsspec read-through cache. | Yes |\n149\t| `stream` | Reads directly from S3, nothing written to disk. Works, but measured ~9x slower than `download` on a full SDO frame. Use only when disk space is the binding constraint. | No |\n150\t\n151\tThere is deliberately no default cache directory: each SDO file is ~1 GB, so the right\n152\tlocation depends on your machine. Budget ~1 GB \u00d7 the number of unique timesteps. If your\n153\tindex has `s3://` paths and no cache directory is set, dataset construction fails\n154\timmediately with a suggested path \u2014 not twenty minutes into training.\n155\t\n156\t`--s3-cache-dir` overrides it per machine without editing the committed config.\n157\t\n158\t---\n159\t\n160\t## Step 4 \u2014 Define your metrics (`metrics/`)\n161\t\n162\t**File to edit:** `metrics/template_metrics.py` \u2192 rename to `your_task_metrics.py`.\n163\t\n164\t`FlareMetrics` defines four metric sets selected by the `mode` argument at construction:\n165\t\n166\t| Mode | Purpose | Backpropagates? |\n167\t|---|---|---|\n168\t| `\"train_loss\"` | Loss that drives weight updates; logged as `train_loss` | Yes |\n169\t| `\"val_loss\"` | **Logged as `val_loss` \u2014 the quantity `ModelCheckpoint` monitors** | No |\n170\t| `\"train_metrics\"` | Extra metrics logged during training | No |\n171\t| `\"val_metrics\"` | Metrics logged at validation, for reporting only | No |\n172\t\n173\tEach method returns `(dict[str, Tensor], list[float])`: a dict of named metric tensors\n174\tand a list of weights for combining multiple loss terms.\n175\t\n176\tThe dict keys become the metric names in WandB and CSV logs.\n177\t\n178\t> **Which metric selects checkpoints.** `val_loss` does \u2014 not `val_metrics`. The names\n179\t> invite the opposite guess, so it is worth stating plainly: `val_metrics` is logged for\n180\t> reporting and has no effect on which checkpoint is kept.\n181\t>\n182\t> `FlareMetrics.val_loss` delegates to `train_loss` by default, so out of the box the\n183\t> monitored quantity has the same form as the training objective and the two cannot drift\n184\t> apart by accident. **Override `val_loss` in your metrics class** when your task needs a\n185\t> different validation objective \u2014 that is the intended hook, and you should not need to\n186\t> touch `lightning_modules/`.\n187\t>\n188\t> The key is optional: `FlareLightningModule` falls back to `train_loss` if a metrics dict\n189\t> has no `\"val_loss\"` entry.\n190\t\n191\t---\n192\t\n193\t## Step 5 \u2014 Define your model head (`models/`)\n194\t\n195\tFor 1D output tasks (regression, classification): use `HelioSpectformer1D` from\n196\t`workshop_infrastructure/models/finetune_models.py`. It wraps the Surya backbone with a\n197\tconfigurable pooling head and a linear output layer.\n198\t\n199\tFor 2D output tasks (pixel-level prediction): use `HelioSpectformer2D`.\n200\t\n201\tThe head is fully configured from the YAML `model:` section \u2014 you usually don't need to\n202\ttouch the model code at all, just adjust the config:\n203\t\n204\t```yaml\n205\tmodel:\n206\t  pooling: class_token        # class_token | global_average | global_max | attention | transformer\n207\t  penultimate_linear_layer: true\n208\t  dropout: 0.2\n209\t  freeze_backbone: false\n210\t  use_lora: true\n211\t  lora_config:\n212\t    r: 8\n213\t    lora_alpha: 8\n214\t    ...\n215\t```\n216\t\n217\t`use_lora` and `freeze_backbone` together select the fine-tuning regime:\n218\t\n219\t| `use_lora` | `freeze_backbone` | Regime |\n220\t|---|---|---|\n221\t| `true` | \u2014 | LoRA adapters on attention + FFN (default; small trainable count) |\n222\t| `false` | `true` | Linear probe \u2014 only the head trains |\n223\t| `false` | `false` | Full fine-tuning of all 366M parameters |\n224\t\n225\tThe training script prints the trainable/total parameter count so you can confirm which\n226\tregime you actually got.\n227\t\n228\tIf your task needs a custom head (e.g. multi-head output, auxiliary losses), create a new\n229\tclass in `models/` following the `RegressionFlareModel` pattern in `simple_baseline.py`.\n230\t\n231\t---\n232\t\n233\t## Step 6 \u2014 Wire it together in the training script\n234\t\n235\t**File to edit:** `3_finetune_template_1D.py`.\n236\t\n237\tOnly two of its four functions have task-specific content:\n238\t\n239\t| Function | What it does | What to change |\n240\t|---|---|---|\n241\t| `build_datasets` | Calls `build_helio_dataloaders()` | Swap `FlareDSDataset` for your subclass and replace the task-specific kwargs below it |\n242\t| `build_model` | Builds `HelioSpectformer1D`, loads weights, applies LoRA / freezing | Usually nothing \u2014 driven by `cfg.model` |\n243\t| `build_trainer` | Loggers, checkpointing, Lightning Trainer | Nothing |\n244\t| `main` | Calls the above in order | Nothing |\n245\t\n246\t`build_datasets` should stay this short \u2014 everything generic is already handled:\n247\t\n248\t```python\n249\tdef build_datasets(cfg):\n250\t    return build_helio_dataloaders(\n251\t        cfg,\n252\t        YourDataset,\n253\t        # \u2193 only your task's kwargs belong here\n254\t        your_catalog_path=cfg.data.your_catalog_path,\n255\t        label_transform=_your_label_transform,\n256\t    )\n257\t```\n258\t\n259\tAlso change the `load_flare_config` import to your own `load_your_config`.\n260\t\n261\t---\n262\t\n263\t## Step 7 \u2014 Edit `config_script.yaml`\n264\t\n265\tThis is the only file you need to edit between experiments. The sections map directly\n266\tto the dataclasses:\n267\t\n268\t| YAML section | Python dataclass | Accessed via |\n269\t|---|---|---|\n270\t| `data:` | your `DataConfig` subclass | `cfg.data.*` |\n271\t| `model:` | `ModelConfig` | `cfg.model.*` |\n272\t| `model.pretrained_path` | `ModelConfig.pretrained_path` | `cfg.model.pretrained_path` |\n273\t| `model.lora_config:` | `LoraAdapterConfig` | `cfg.model.lora_config.*` |\n274\t| `model.time_embedding:` | `TimeEmbeddingConfig` | `cfg.model.time_embedding.*` |\n275\t| `training:` | flat fields on `TrainingConfig` | `cfg.learning_rate`, `cfg.batch_size`, \u2026 |\n276\t| `output:` | `OutputConfig` | `cfg.output.*` |\n277\t| `logging:` | flat fields on `TrainingConfig` | `cfg.wandb_project`, `cfg.wandb_entity` |\n278\t\n279\t---\n280\t\n281\t## Reproducibility\n282\t\n283\tTwo runs of the same config produce the same numbers. That is not free \u2014 it is bought by two\n284\tkeys in the `training:` section, and it is worth understanding what they do before you change\n285\tthem.\n286\t\n287\t```yaml\n288\ttraining:\n289\t  seed: 42             # seeds Python, NumPy, torch, every DataLoader worker, and the shuffle\n290\t  deterministic: false # false | warn | true\n291\t```\n292\t\n293\t| `deterministic` | Behavior |\n294\t|---|---|\n295\t| `false` (default) | No guarantees. Two identical runs may disagree. Chosen as the default for throughput. |\n296\t| `warn` | Bit-identical wherever a deterministic CUDA kernel exists \u2014 which is the whole model as shipped \u2014 and a warning naming the op where one does not. Never blocks a run. |\n297\t| `true` | Hard guarantee: an op with no deterministic kernel raises. **Incompatible with `model.learned_flow: true`**, which uses `F.grid_sample` (no deterministic CUDA backward). |\n298\t\n299\tDeterminism costs roughly **+20% of wall time**: on this template (1 epoch, `max_samples: 10`,\n300\tone A100, LoRA) a run takes 159 s with `false` and 190 s with `warn`. That total includes a fixed\n301\t~1.8 GB checkpoint load, so the overhead on the compute alone is proportionally larger \u2014 budget\n302\tmore than 20% on long runs. The default trades reproducibility for that throughput.\n303\t\n304\t**Switch to `warn` whenever you are comparing results.** With `false`, you cannot tell whether a\n305\tchange in your numbers came from your edit or from drift \u2014 this config produced `val_loss`\n306\t0.060782 and 0.051657 on two runs that differed in nothing at all. Any before/after comparison,\n307\tablation, or hyperparameter sweep should use `warn`.\n308\t\n309\tFor a one-off comparison, pass the flag instead of editing the committed config:\n310\t\n311\t```bash\n312\tpython -m downstream_apps.your_task.3_finetune_template_1D --deterministic warn\n313\t```\n314\t\n315\tNote that `seed` still does its job with determinism off: the data order stays pinned, so a\n316\tdifferent seed still means a genuinely different run.\n317\t\n318\tTwo implementation details you inherit for free, but should not undo:\n319\t\n320\t- **`CUBLAS_WORKSPACE_CONFIG` is set before `import torch`** \u2014 at the top of\n321\t  `3_finetune_template_1D.py` and in the notebooks' first cell. cuBLAS reads it once at\n322\t  initialization, so setting it later silently does nothing. Without it you get a cuBLAS warning\n323\t  on every run.\n324\t- **The train DataLoader gets an explicit `generator` and `worker_init_fn`** (in\n325\t  `workshop_infrastructure/datasets/builders.py`). A bare `shuffle=True` seeds its sampler from\n326\t  whatever the global torch RNG state happens to be when the iterator is created \u2014 so any code\n327\t  you add that consumes RNG beforehand would silently reshuffle your epochs. The worker seeder\n328\t  also seeds Python's `random`, because the channel masker in `helio.py` draws from it.\n329\t\n330\t> **Reproducibility is not significance.** With `max_samples: 10` and one epoch the result is\n331\t> still noise. This makes it the *same* noise every time, so that a change in the number can be\n332\t> attributed to your edit rather than to chance. Before drawing any scientific conclusion, raise\n333\t> `max_samples` and vary `seed`.\n334\t\n335\t---\n336\t\n337\t## Quick reference: running the script\n338\t\n339\t```bash\n340\t# Full run (--config defaults to this app's configs/config_script.yaml)\n341\tCUDA_VISIBLE_DEVICES=0,1 python -m downstream_apps.your_task.3_finetune_template_1D\n342\t\n343\t# Quick sanity check\n344\tCUDA_VISIBLE_DEVICES=0 python -m downstream_apps.your_task.3_finetune_template_1D \\\n345\t    --max-epochs 2 --no-wandb\n346\t\n347\t# Same config, different machine's scratch space\n348\tCUDA_VISIBLE_DEVICES=0 python -m downstream_apps.your_task.3_finetune_template_1D \\\n349\t    --s3-cache-dir /scratch/$USER/helio_cache\n350\t\n351\t# Reproducible run, for comparing a change against a baseline (~20% slower)\n352\tCUDA_VISIBLE_DEVICES=0 python -m downstream_apps.your_task.3_finetune_template_1D \\\n353\t    --deterministic warn\n354\t```\n355\t\n356\tSet `max_samples: 10` in the YAML while developing \u2014 it limits the dataset so data loading\n357\tis fast without changing anything else.\n358\t\n359\t---\n360\t\n361\t## Checklist: files you should have edited\n362\t\n363\tIf you touched anything outside this list, ask whether it belongs in\n364\t`workshop_infrastructure/` instead:\n365\t\n366\t- [ ] `configs.py` \u2014 your `DataConfig` subclass (~15 lines)\n367\t- [ ] `configs/config_script.yaml` \u2014 your paths and hyperparameters\n368\t- [ ] `datasets/your_task_dataset.py` \u2014 your labels\n369\t- [ ] `metrics/your_task_metrics.py` \u2014 your loss and evaluation metrics\n370\t- [ ] `3_finetune_template_1D.py` \u2014 the two imports and the kwargs in `build_datasets`\n371\t- [ ] `models/` \u2014 only if you need a custom head\n372\t",
+            "raw_input": {
+              "file_path": "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/ADAPTING.md"
+            },
+            "title": "Read ADAPTING.md",
+            "kind": "read",
+            "locations": [
+              "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/ADAPTING.md"
+            ]
+          },
+          {
+            "status": "completed",
+            "raw_input": {
+              "file_path": "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/configs/config_script.yaml"
+            },
+            "locations": [
+              "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/configs/config_script.yaml"
+            ],
+            "raw_output": "1\t# =============================================================================\n2\t# Surya workshop \u2014 template fine-tuning config\n3\t#\n4\t# Five sections own all parameters:\n5\t#   data      \u2014 what to load and how to align labels\n6\t#   model     \u2014 backbone architecture, fine-tuning head, LoRA\n7\t#   training  \u2014 optimization and augmentation hyperparameters\n8\t#   output    \u2014 where to save checkpoints (and optional S3 upload)\n9\t#   logging   \u2014 experiment tracking (WandB)\n10\t#\n11\t# Two things to know before editing:\n12\t#\n13\t#   * Paths are relative to THIS FILE's directory (~ and $ENV_VARS are expanded), so a\n14\t#     fork works on any machine with no absolute paths to fix up. The one exception is\n15\t#     s3_cache_dir \u2014 see its comment below.\n16\t#   * Unrecognized keys are an ERROR, not a silent no-op. To add a task-specific key,\n17\t#     add the field to your DataConfig subclass in configs.py first.\n18\t#\n19\t# Usage \u2014 --config defaults to this file, so the short form is enough:\n20\t#   CUDA_VISIBLE_DEVICES=0,1 python -m downstream_apps.template.3_finetune_template_1D\n21\t#\n22\t# Per-run overrides that do not require editing this file:\n23\t#   --max-epochs 5     --batch-size 4     --s3-cache-dir /scratch/$USER/cache\n24\t#   --deterministic warn   (reproducible run; see training.deterministic below)\n25\t# =============================================================================\n26\t\n27\tjob_id: solar_flare_forecasting\n28\t\n29\t\n30\t# -----------------------------------------------------------------------------\n31\t# Data\n32\t# -----------------------------------------------------------------------------\n33\tdata:\n34\t  # -- Paths (relative to this file's directory) --\n35\t  train_data_path: ../../../data/indices/surya_aws_s3_train.csv\n36\t  valid_data_path: ../../../data/indices/surya_aws_s3_val.csv\n37\t  scalers_path: ../assets/scalers.yaml\n38\t\n39\t  # -- Input channels and temporal sampling --\n40\t  channels: [aia94, aia131, aia171, aia193, aia211, aia304, aia335, aia1600,\n41\t             hmi_m, hmi_bx, hmi_by, hmi_bz, hmi_v]\n42\t  time_delta_input_minutes: [-120, -60]   # Offsets (minutes) of input frames relative to reference timestep\n43\t  time_delta_target_minutes: 0   # Step size (minutes) between forecast frames\n44\t\n45\t  # -- Downstream label alignment (flare catalog \u2192 Surya index) --\n46\t  flare_index_path: ../data/hek_flare_catalog.csv\n47\t#  ds_time_column: start_time      # Column in the flare catalog used as the event timestamp\n48\t  ds_time_column: peak_time      # Column in the flare catalog used as the event timestamp\n49\t  ds_time_tolerance: 4d           # Max allowed gap between catalog and Surya timestamps\n50\t  ds_match_direction: forward     # \"forward\": use solar state *before* the flare (causal)\n51\t\n52\t  # -- Local data (only needed when the index contains relative local paths) --\n53\t  # sdo_data_root_path: /path/to/sdo   # Prepended to relative local paths; ignored for s3://\n54\t\n55\t  # -- S3 (only needed when index contains s3:// paths) --\n56\t  s3_anon: true                   # true for public buckets; false to use IAM credentials\n57\t\n58\t  # How S3 objects are read. Measured on one 13-channel SDO sample from\n59\t  # s3://nasa-surya-bench (times are indicative, not a benchmark):\n60\t  #\n61\t  #   download    \u2014 fetch the whole file into s3_cache_dir, then open locally.\n62\t  #                 ~9 s from a warm cache. Recommended, and the default.\n63\t  #   simplecache \u2014 fsspec read-through cache into s3_cache_dir. ~29 s on a cold fetch.\n64\t  #   stream      \u2014 read directly from S3, nothing written to disk, no cache dir needed.\n65\t  #                 ~271 s \u2014 roughly 9x slower than just fetching the whole file, because\n66\t  #                 HDF5 random access becomes many small ranged GETs. Use only when you\n67\t  #                 cannot spare the disk.\n68\t  s3_mode: download\n69\t\n70\t  # Local cache directory. REQUIRED unless s3_mode is \"stream\" \u2014 budget ~1 GB per unique\n71\t  # timestep, so the right location depends on your machine's scratch space.\n72\t  #\n73\t  # Left null here on purpose: this file is checked in and shared, and an absolute path\n74\t  # into one person's home is wrong for everyone else. Set it one of three ways\n75\t  # (highest precedence first):\n76\t  #\n77\t  #   1. --s3-cache-dir /scratch/$USER/helio_cache   (per-run)\n78\t  #   2. s3_cache_dir: /scratch/me/helio_cache       (here, in your own fork)\n79\t  #   3. export SURYA_WS_CACHE_DIR=/scratch/me/helio_cache   (per-machine, config stays clean)\n80\t  #\n81\t  # If none is set and the index contains s3:// paths, the run fails immediately with a\n82\t  # suggested path \u2014 not part-way through the first epoch. ~ and $ENV_VARS are expanded.\n83\t  s3_cache_dir: /home/jovyan/scratch_space/surya_cache \n84\t\n85\t  # -- S3 transfer tuning --\n86\t  # These control boto3's multipart download: how many threads download parts in\n87\t  # parallel and how large each part is.  The right values depend on your network\n88\t  # connection and where you are running (local machine vs. AWS EC2).\n89\t  #\n90\t  # To find the optimal values for your setup, run the benchmark script once\n91\t  # against a representative SDO NetCDF file and copy the recommended settings here:\n92\t  #\n93\t  #   python -m workshop_infrastructure.benchmark_s3 s3://nasa-surya-bench/2011/01/20110131_0000.nc --anon --quick\n94\t  #\n95\t  # The script downloads sample data with several (concurrency, part_size) combinations\n96\t  # and prints a throughput table.  A --quick run takes roughly 2-3 minutes;\n97\t  # drop --quick for a broader 25-cell grid.\n98\t  s3_boto3_max_concurrency: 4     # parallel download threads (benchmark default: 4)\n99\t  s3_boto3_part_size_mb: 64       # part size in MB (benchmark default: 64)\n100\t\n101\t  # -- Development --\n102\t  max_samples: 10                 # Cap dataset size for quick experiments (null = all samples)\n103\t\n104\t\n105\t# -----------------------------------------------------------------------------\n106\t# Model\n107\t# -----------------------------------------------------------------------------\n108\tmodel:\n109\t  # -- Pretrained checkpoint (relative to this file; downloaded on first run if missing) --\n110\t  pretrained_path: ../assets/surya.366m.v1.pt\n111\t\n112\t  # -- Backbone (Surya 366M defaults \u2014 match the pretrained checkpoint) --\n113\t  img_size: 4096\n114\t  patch_size: 16\n115\t  in_channels: 13\n116\t  embed_dim: 1280\n117\t  depth: 10\n118\t  spectral_blocks: 2\n119\t  num_heads: 16\n120\t  mlp_ratio: 4.0\n121\t  drop_rate: 0.0\n122\t  window_size: 2\n123\t  dp_rank: 4\n124\t  rpe: false\n125\t  learned_flow: false\n126\t  init_weights: false\n127\t  checkpoint_layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n128\t  ensemble: null\n129\t  nglo: 1\n130\t  time_embedding:\n131\t    type: linear        # Options: linear | fourier | perceiver\n132\t    n_queries: null     # Required for perceiver; unused otherwise\n133\t    time_dim: 2         # Number of input timesteps (must match time_delta_input_minutes length)\n134\t\n135\t  # -- Fine-tuning head --\n136\t  pooling: class_token  # Options: class_token | global_average | global_max | attention | transformer\n137\t  penultimate_linear_layer: true\n138\t  dropout: 0.2\n139\t  freeze_backbone: false\n140\t\n141\t  # -- LoRA adapters --\n142\t  use_lora: true\n143\t  lora_config:\n144\t    r: 8\n145\t    lora_alpha: 8\n146\t    lora_dropout: 0.1\n147\t    bias: none\n148\t    target_modules: [q_proj, v_proj, k_proj, out_proj, fc1, fc2]\n149\t\n150\t\n151\t# -----------------------------------------------------------------------------\n152\t# Training\n153\t# -----------------------------------------------------------------------------\n154\ttraining:\n155\t  learning_rate: 0.0001\n156\t  batch_size: 2         # Per-device batch size under DDP\n157\t  max_epochs: 20        # Can be overridden with --max-epochs at the CLI\n158\t  num_workers: 8        # DataLoader worker processes per device (use 0 to debug in-process)\n159\t\n160\t  # -- Reproducibility --\n161\t  # Seeds Python, NumPy, torch, every DataLoader worker, and the shuffle order. Two runs\n162\t  # of this file give the same numbers; change the seed to get a genuinely different run\n163\t  # rather than incidental variation.\n164\t  seed: 42\n165\t\n166\t  # How hard to insist on determinism. Passed straight to lightning.Trainer.\n167\t  #   false  \u2014 no guarantees; two identical runs may differ. The default, chosen for\n168\t  #            throughput. Measured on this template (1 epoch, max_samples: 10, one A100,\n169\t  #            LoRA): 159 s with false vs 190 s with warn, about +20% of total wall time.\n170\t  #            That total includes a fixed ~1.8 GB checkpoint load, so the overhead on the\n171\t  #            compute itself is proportionally larger \u2014 budget more on long runs.\n172\t  #   warn   \u2014 bit-identical wherever a deterministic CUDA kernel exists (which is the\n173\t  #            whole model as shipped), and a warning naming the op where one does not.\n174\t  #            Never blocks a run.\n175\t  #   true   \u2014 hard guarantee: an op with no deterministic kernel raises instead.\n176\t  #            NOTE: incompatible with model.learned_flow: true, which uses F.grid_sample\n177\t  #            (no deterministic CUDA backward) \u2014 that combination will fail.\n178\t  #\n179\t  # >> Set this to \"warn\" whenever you need to tell whether a change in your results came\n180\t  # >> from your edit or from run-to-run drift. With false, that comparison is not\n181\t  # >> meaningful: this config gave 0.060782 and 0.051657 on two identical runs.\n182\t  # >> For a one-off check you can leave this file alone and pass --deterministic warn.\n183\t  deterministic: false\n184\t\n185\t  # Caveat worth stating plainly: this buys you REPRODUCIBILITY, not statistical\n186\t  # significance. With max_samples: 10 and one epoch the number is still noise \u2014 it is\n187\t  # just the *same* noise every time, so a change in it can be attributed to your edit.\n188\t\n189\t  # Task-specific\n190\t  rollout_steps: 0\n191\t  drop_hmi_probability: 0.0\n192\t  use_latitude_in_learned_flow: false\n193\t  dtype: float32        # Options: float32 | bfloat16\n194\t\n195\t\n196\t# -----------------------------------------------------------------------------\n197\t# Output\n198\t# -----------------------------------------------------------------------------\n199\toutput:\n200\t  ckpt_dir: checkpoints   # Local directory for saved checkpoints\n201\t\n202\t  # S3 upload of best checkpoint (set s3_bucket to enable; all three are used together)\n203\t  s3_bucket: null         # e.g. my-ml-artifacts\n204\t  s3_prefix: \"\"           # Key prefix (folder) within the bucket, e.g. flare/exp_001\n205\t  s3_best_key: best.ckpt  # Stable object name; always points to the latest best checkpoint\n206\t\n207\t\n208\t# -----------------------------------------------------------------------------\n209\t# Logging\n210\t# -----------------------------------------------------------------------------\n211\tlogging:\n212\t  wandb_project: template_flare_regression\n213\t  wandb_entity: null      # WandB team/org name; null to log to your personal account\n214\t",
+            "tool_call_id": "toolu_bdrk_01MjBXzVp9C6MGgop57hqnSA",
+            "kind": "read",
+            "title": "Read configs/config_script.yaml"
+          },
+          {
+            "raw_input": {
+              "file_path": "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/1_baseline_template.ipynb"
+            },
+            "kind": "read",
+            "tool_call_id": "toolu_bdrk_016WFAhybYWBT7mHqBHhZ58K",
+            "raw_output": [
+              {
+                "text": "<cell id=\"d651fb69\"><cell_type>markdown</cell_type># PyTorch Lightning baseline template\n\nby Andr\u00e9s Mu\u00f1oz-Jaramillo\n\nThis notebook is meant to act as a template to train and use a simple regression model to define a baseline that can be compared with a DS application.\n\nIt focuses on the concept of defining a PyTorch model, a PyTorch lightning training loop and the deffinition of metrics of performance.\n\nThis notebook assumes familiarity with the concepts of datasets and dataloaders contained in the **_0_dataset_dataloader_template.ipynb_**</cell id=\"d651fb69\">\n<cell id=\"f6bade9c\"><cell_type>markdown</cell_type>## Set your cuda visible device\n\n**IMPORTANT:** Since we are sharing resources, please make sure that the cuda visible device you put here is the one assigned to your team and your machine.   </cell id=\"f6bade9c\">\n<cell id=\"6d6af87a\">import os\nos.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"</cell id=\"6d6af87a\">\n<cell id=\"4ed04321\"># Must be set BEFORE torch is imported: cuBLAS reads this once, when it initializes, so\n# setting it later has no effect. It is what lets training.deterministic work without a\n# cuBLAS warning on every run. (Restart the kernel if torch was already imported.)\nimport os\nos.environ.setdefault(\"CUBLAS_WORKSPACE_CONFIG\", \":4096:8\")\n\nimport sys\nfrom torch.utils.data import DataLoader\n\nimport torch\nimport yaml\n\nimport lightning as L\nfrom lightning.pytorch.callbacks import ModelCheckpoint\nfrom lightning.pytorch.loggers import CSVLogger, WandbLogger\n\n# Append base path.  May need to be modified if the folder structure changes.\n# It gives the notebook access to the wokshop_infrastructure folder.\nsys.path.append(\"../../\")\n \n# Append Surya path. May need to be modified if the folder structure changes.\n# It gives the notebook access to surya's release code.\n\nfrom workshop_infrastructure.utils import build_scalers  # Data scaling utilities for Surya stacks\n\ntorch.set_float32_matmul_precision('medium')\n\n</cell id=\"4ed04321\">\n<cell id=\"04135ff7\"><cell_type>markdown</cell_type>## Load configuration\n\nSurya was designed to read a configuration file that defines many aspects of the model\nincluding the data it uses we use this config file to set default values that do not\nneed to be modified, but also to define values specific to our downstream application</cell id=\"04135ff7\">\n<cell id=\"63c1fe60\"># The config is the single source of truth. load_flare_config() parses it into a typed\n# object, exactly as the training script 3_finetune_template_1D.py does, so the same YAML\n# behaves identically here and in production. Notebook 0 walks through what it contains.\nfrom downstream_apps.template.configs import load_flare_config\n\ncfg = load_flare_config(\"./configs/config_script.yaml\")\nprint(f\"Loaded config for job: {cfg.job_id}\")\n</cell id=\"63c1fe60\">\n<cell id=\"1fc3d52f\"><cell_type>markdown</cell_type>## Download assets\n\nThe config says where the assets belong, so it is loaded first. `ensure_assets()` fetches only what is missing from HuggingFace, so re-running this is free.\n</cell id=\"1fc3d52f\">\n<cell id=\"2fd5bf78\"># One implementation, shared by the notebooks, the training script and the\n# download_*.sh wrappers: workshop_infrastructure/assets.py.\n# The linear baseline needs no backbone, so skip the 1.8 GB weights.\nfrom workshop_infrastructure.assets import ensure_assets\n\nensure_assets(cfg, which=[\"scalers\"])\n\n# Now that scalers.yaml is guaranteed to be on disk, load it. build_scalers()\n# accepts the resolved path directly.\nscalers = build_scalers(info=cfg.data.scalers_path)\nprint(f\"Loaded scalers for {len(scalers)} channels.\")\n</cell id=\"2fd5bf78\">\n<cell id=\"af6574dc\"><cell_type>markdown</cell_type>## Define Downstream (DS) datasets\n\nThis child class takes as input all expected HelioFM parameters, plus additonal parameters relevant to the downstream application.  Here we focus in particular to the DS index and parameters necessary to combine it with the HelioFM index.\n\nAnother important component of creating a dataset class for your DS is normalization.  Here we use a log normalization on xray flux that will act as the output target.  Making log10(xray_flux) strictly positive and having 66% of its values between 0 and 1\n\nIn this case we will define both a training and a validation dataset using the indices pointed at in the config\n\n**_Important:  In this notebook we sets max_number_of_samples=6 to potentially avoid going through the whole dataset as we explore it.  Keep in mind this for the future in case the database seems smaller than you expect_**\n</cell id=\"af6574dc\">\n<cell id=\"34db2cc6\">from downstream_apps.template.datasets.template_dataset import FlareDSDataset</cell id=\"34db2cc6\">\n<cell id=\"70e9c5b2\"># build_helio_dataloaders() constructs the train and validation datasets and wraps them\n# in DataLoaders. It fills in every generic argument (channels, temporal sampling, S3\n# access, worker settings) from the config \u2014 see notebook 0 for what that block looks\n# like written out. Only the flare-specific arguments are passed here, which is exactly\n# the list you replace when you fork the template.\n#\n# It also handles two details that are easy to get wrong by hand: the validation set gets\n# phase=\"val\" (no random channel masking or flips), and only the training loader shuffles.\nfrom workshop_infrastructure.datasets.builders import build_helio_dataloaders\n\ntrain_data_loader, val_data_loader = build_helio_dataloaders(\n    cfg,\n    FlareDSDataset,\n    scalers=scalers,\n    num_workers=4,          # fewer workers than the script: notebooks start faster\n    #### Downstream (DS) specific parameters\n    return_surya_stack=True,\n    max_number_of_samples=6,\n    ds_flare_index_path=cfg.data.flare_index_path,\n    ds_time_column=cfg.data.ds_time_column,\n    ds_time_tolerance=cfg.data.ds_time_tolerance,\n    ds_match_direction=cfg.data.ds_match_direction,\n)\n\nbatch_size = cfg.batch_size\nprint(f\"train: {len(train_data_loader.dataset)} samples | \"\n      f\"val: {len(val_data_loader.dataset)} samples | batch_size: {batch_size}\")\n</cell id=\"70e9c5b2\">\n<cell id=\"79fda7cf\"><cell_type>markdown</cell_type>Training and validation get separate datasets and dataloaders. They differ only in the index they read and in `phase`: `phase=\"val\"` turns off the random channel masking and vertical flips used for training augmentation.\n\nThe loaders use `multiprocessing_context=\"spawn\"` \u2014 the dataset holds an S3 client that does not survive `fork`, and spawn also avoids lockups in shared environments.\n</cell id=\"79fda7cf\">\n<cell id=\"48bb2912\"># Inspect a single batch to confirm shapes before training.\nbatch = next(iter(train_data_loader))\nprint({k: (tuple(v.shape) if hasattr(v, \"shape\") else type(v).__name__) for k, v in batch.items()})\n</cell id=\"48bb2912\">\n<cell id=\"1d4d2dea\"><cell_type>markdown</cell_type>## Define simple baseline model\n\nDefining a simple baseline is important to understand what value is bringing the AI model to the problem.  \n\nIt is always very good to have a very simple baseline model.  Ideally one that cannot overfit the data.  This is a very good way of really measuring the value added of complex models.   Classical machine learning excels here:\n\n- Regressions and logistic regressions.\n- Climatological averages.\n- Persistance.\n- Simple transformations.\n\nSimple models avoid excesively optimistic assessments of the capatiblities of a complex models and for many problems are actually remarkably hard to beat.\n\nIn this example we define a simple regression acting on the intensity of each channel.  Note that we invert the normalization to deal with strictly positive quantities.  As with the dataset we will be importing the model from a module so that we can use it within training scripts later on.</cell id=\"1d4d2dea\">\n<cell id=\"3f5fd639\">from downstream_apps.template.models.simple_baseline import RegressionFlareModel</cell id=\"3f5fd639\">\n<cell id=\"18d87992\"><cell_type>markdown</cell_type>We can now test that this model manipulates a batch as expected and returns an estimate of flare intensity\n\nNote that the simple regression model definition requires knowing the number of channels and timesteps so here we pull that information from the configuration intializing the model.</cell id=\"18d87992\">\n<cell id=\"b0b6ce02\">n_input_timestamps = cfg.model.time_embedding.time_dim\nn_channels = len(cfg.data.channels)\n\n# RegressionFlareModel only needs the flattened input dimension.\n# It expects 'ts' in signum-log space \u2014 use destandardize_channels() before calling forward().\nmodel = RegressionFlareModel(n_input_timestamps * n_channels)\n</cell id=\"b0b6ce02\">\n<cell id=\"3fee1e68\"><cell_type>markdown</cell_type>Now we can pass the input stack 'ts' to the model to transform it into our regression output.   Note that since this model has not been trained and was initalized randomly.  The output here has no real meaning.  It only acts as a test that our model forward doesn't have dimension problems.\n\nDimension problemns are the dominant source of error in this kind of work.\n\nNote that our output has now the size of our batch.</cell id=\"3fee1e68\">\n<cell id=\"d7d97841\">from downstream_apps.template.models.simple_baseline import destandardize_channels\n\nbatch = next(iter(train_data_loader))\n\n# RegressionFlareModel works in signum-log space, not normalized space.\n# destandardize_channels undoes the per-channel z-score but KEEPS the log compression \u2014\n# raw DN values span too many orders of magnitude to be good features for one linear layer.\n# (For true physical units, use train_dataset.inverse_transform_data() instead. See the\n#  \"THE THREE SPACES\" block in workshop_infrastructure/datasets/helio.py.)\nbatch_logspace = destandardize_channels(batch, channel_order=cfg.data.channels, scalers=scalers)\noutput = model.forward(batch_logspace)[:, 0]  # Get rid of singleton dimension\noutput\n</cell id=\"d7d97841\">\n<cell id=\"36f32e64\"><cell_type>markdown</cell_type>## Define your metrics\n\nMetrics are a very important part of training AI models.   They provide your models with the quantitification of error, which in turn shifts the weights towards better pefrorming models.  They also provide a way for you to monitor performance, identify overfitting, and quantify value added. \n\nWe now initialize the metrics class which allows you to control what metrics do you want to use as \"loss\" (i.e. the metrics that backpropagate through your model) and which ones for monitoring performance.  As with other components, this takes the form of a loaded module that can be later use in a training script</cell id=\"36f32e64\">\n<cell id=\"34c502ec\">from downstream_apps.template.metrics.template_metrics import FlareMetrics</cell id=\"34c502ec\">\n<cell id=\"d152b127\">train_loss_metrics = FlareMetrics(\"train_loss\")\n# val_loss is the quantity logged as \"val_loss\" and used to pick the best checkpoint.\n# It defaults to the same MSE as train_loss \u2014 override FlareMetrics.val_loss to change it.\nval_loss_metrics = FlareMetrics(\"val_loss\")\ntrain_evaluation_metrics = FlareMetrics(\"train_metrics\")\n# Reported only: val_metrics do NOT influence checkpoint selection.\nvalidation_evaluation_metrics = FlareMetrics(\"val_metrics\")</cell id=\"d152b127\">\n<cell id=\"0550062c\"><cell_type>markdown</cell_type>Now they can be evaluated in our model's output and our ground truth.   First the loss that actually will backpropagate, in this case Mean Squared Errror</cell id=\"0550062c\">\n<cell id=\"2baf9d36\">train_loss_metrics(output, batch[\"forecast\"])</cell id=\"2baf9d36\">\n<cell id=\"3dc5eb6d\"><cell_type>markdown</cell_type>Then a training evaluation that will not backpropagate and inform our model, but that we can keep an eye on. Note that reporting lots of metrics during training will slow the training process.  I'm including it her as an example, but oftentimes is better to put the diagnostics only in the validation evaluation metrics.\n\nHere we are caclulating the Root Relative Squared Error https://lightning.ai/docs/torchmetrics/stable/regression/rse.html \n\nA value below one means the prediction is better than predicting the average.  It is unlikely that this metric will be lower than one with a randomly initialized model</cell id=\"3dc5eb6d\">\n<cell id=\"796559f1\">train_evaluation_metrics(output, batch[\"forecast\"])</cell id=\"796559f1\">\n<cell id=\"3d65e7cd\"><cell_type>markdown</cell_type>In the validation evaluation metrics we report both MSE and RRSE</cell id=\"3d65e7cd\">\n<cell id=\"0a0bbb35\">validation_evaluation_metrics(output, batch[\"forecast\"])</cell id=\"0a0bbb35\">\n<cell id=\"537871ed\"><cell_type>markdown</cell_type>## Define your PyTorch ligthning module\n\nIn this workshop we will use PyTorch lightning to train our models.  PyTorch lighting reduces the amount of code required to implement a training loop in comparison to PyTorch (at the expense of control and versatility).  \n\nOpening the FlareLightningModule shows a simple Lightning model implementation.  It consists of:\n\n- An initialization of the class (metrics, model, and learning rate).\n- The forward code that runs evaluation of the model.\n- Training and validation steps.\n- Configuration of optimizers.</cell id=\"537871ed\">\n<cell id=\"9d730cf3\">from downstream_apps.template.lightning_modules.pl_simple_baseline import FlareLightningModule</cell id=\"9d730cf3\">\n<cell id=\"3321963d\"><cell_type>markdown</cell_type>## Set your global seeds\n\nSince training AI models generally uses stochastic gradient descent, it is a good idea to fix your random seeds so that your training exercise is reproducible.    </cell id=\"3321963d\">\n<cell id=\"cc28903d\">L.seed_everything(42, workers=True)</cell id=\"cc28903d\">\n<cell id=\"119ec413\"><cell_type>markdown</cell_type>## Intialize Lightning module\n\nNow we properly initalize the Lightning module to enable training, including passing the dictionary of metrics</cell id=\"119ec413\">\n<cell id=\"553565e7\">from functools import partial\n\nmetrics = {\n    'train_loss': train_loss_metrics,\n    'val_loss': val_loss_metrics,\n    'train_metrics': train_evaluation_metrics,\n    'val_metrics': validation_evaluation_metrics,\n}\n\n# Wire up the inverse transform so FlareLightningModule applies it before every model call.\npreprocess_fn = partial(\n    destandardize_channels,\n    channel_order=cfg.data.channels,\n    scalers=scalers,\n)\n\nlit_model = FlareLightningModule(\n    model, metrics, lr=cfg.learning_rate, batch_size=batch_size, preprocess_fn=preprocess_fn\n)\n</cell id=\"553565e7\">\n<cell id=\"7b9c76c8\"><cell_type>markdown</cell_type>## Logging\n\nIn order to properly compare experiments against each other, it is very useful to log evaluation metrics in a place where they can be compared against other training runs.  In this workshop we will use Weights and Biases (WandB). \n\nThe first time you run WandB in a machine it will ask you to login to WandB.  You should have received an invitation to our project.  In order to login you must:\n\n- Select option 2 (existing account).   In VScode the dialog opens a box at the top of your screen.\n- Click on get API Key (this will open a browser).\n- Generate API Key.\n- Paste it in the dialog box at the top of your VSCode</cell id=\"7b9c76c8\">\n<cell id=\"48c4d138\">project_name = cfg.wandb_project\nrun_name = \"baseline_experiment_1_\"  # give your run a descriptive name\n\nwandb_logger = WandbLogger(\n    entity=cfg.wandb_entity,  # set wandb_entity in the config; null = personal account\n    project=project_name,\n    name=run_name,\n    log_model=False,\n    save_dir=\"./wandb/wandb_tmp\",\n)\n\ncsv_logger = CSVLogger(\"runs\", name=project_name)\n</cell id=\"48c4d138\">\n<cell id=\"7e24e547\"><cell_type>markdown</cell_type>## Initialize trainer\n\nWith the loggers done, now the trainer needs to be defined.  The trainer defines several properties of your training run. Here we define:\n\n- The max number of epochs (one epoch represents your model seeing your entire training dataset).\n- Define where the training run will take place (auto uses the GPU if possible, if not, CPU).\n- The loggers.\n- The callbacks (here we save the model with the lowest validation loss).\n- Logging frequency (because we are working with a small dataset it needs to be small).</cell id=\"7e24e547\">\n<cell id=\"b008c604\">max_epochs = 2\n\n# -------------------------------------------------------------------------\n# Trainer\n# -------------------------------------------------------------------------\ntrainer = L.Trainer(\n    max_epochs=max_epochs,\n    accelerator=\"auto\",\n    devices=\"auto\",\n    logger=[wandb_logger, csv_logger],\n    callbacks=[\n        ModelCheckpoint(\n            monitor=\"val_loss\",\n            mode=\"min\",\n            save_top_k=1,\n        )\n    ],\n    log_every_n_steps=2,\n)</cell id=\"b008c604\">\n<cell id=\"1088d108\"><cell_type>markdown</cell_type>## Fit the model\n\nFinally we fit the model.  We pass the Lighting module, and our dataloaders.</cell id=\"1088d108\">\n<cell id=\"f8a6e448\">trainer.fit(lit_model, train_data_loader, val_data_loader)</cell id=\"f8a6e448\">\n<cell id=\"ebcc1a23\"><cell_type>markdown</cell_type>## Conclusion\n\nWith this we have now integrated our dataset, dataloaders, metrics, and baseline into an end-2-end training loop.  The next step is to substitute the simple model with Surya.</cell id=\"ebcc1a23\">",
+                "type": "text"
+              }
+            ],
+            "status": "completed",
+            "locations": [
+              "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast/1_baseline_template.ipynb"
+            ],
+            "title": "Read 1_baseline_template.ipynb"
+          },
+          {
+            "kind": "execute",
+            "session_id": "d42cf5e5-0a8b-401e-8050-f7fc5c0da306",
+            "status": "completed",
+            "tool_call_id": "toolu_bdrk_01ACGG7mabNCuaVMSwjwEYSg",
+            "selected_option_id": "allow-once",
+            "title": "cd surya_workshop && git diff -- downstream_apps/template/configs/config_script.yaml",
+            "raw_output": "diff --git a/downstream_apps/template/configs/config_script.yaml b/downstream_apps/template/configs/config_script.yaml\nindex 586e251..236238b 100644\n--- a/downstream_apps/template/configs/config_script.yaml\n+++ b/downstream_apps/template/configs/config_script.yaml\n@@ -79,7 +79,7 @@ data:\n   #\n   # If none is set and the index contains s3:// paths, the run fails immediately with a\n   # suggested path \u2014 not part-way through the first epoch. ~ and $ENV_VARS are expanded.\n-  s3_cache_dir: null\n+  s3_cache_dir: /home/jovyan/scratch_space/surya_cache \n \n   # -- S3 transfer tuning --\n   # These control boto3's multipart download: how many threads download parts in\nShell cwd was reset to /home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast",
+            "permission_options": [
+              {
+                "name": "Yes",
+                "option_id": "allow-once",
+                "kind": "allow_once"
+              },
+              {
+                "kind": "reject_once",
+                "name": "No",
+                "option_id": "reject"
+              }
+            ],
+            "raw_input": {
+              "command": "cd /home/jovyan/tmp/surya_workshop && git diff -- downstream_apps/template/configs/config_script.yaml"
+            },
+            "permission_status": "resolved"
+          }
+        ]
+      },
+      "body": "",
+      "time": 1789500199.4854019,
+      "mentions": [],
+      "raw_time": false
+    },
+    {
+      "time": 1789500263.4829087,
+      "type": "msg",
+      "mentions": [],
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "id": "04308495-9861-4be4-a0d6-4e697196fde4",
+      "body": "Two different concerns here \u2014 your own notebook, and something already off in the shared template. Quick flag first: `git status` shows you've locally modified `downstream_apps/template/configs/config_script.yaml` (setting `s3_cache_dir` to your home path) \u2014 that's the **shared template**, not your `flare_forecast` copy. That's exactly the kind of edit you were warned about; it's currently uncommitted, so just don't stage/commit it (or revert with `git checkout -- ../template/configs/config_script.yaml`).\n\nYour `flare_forecast` app is already its own fork (own `FlareDSDataset`, `FlareMetrics`, own config), so the dataset/model/metrics code is not something you need to fork further \u2014 it's the shared code for this specific task. What's actually machine/person-specific in **`1_baseline_template.ipynb`**:\n\n1. **`os.environ[\"CUDA_VISIBLE_DEVICES\"]`** (cell `6d6af87a`) \u2014 currently `\"0\"`. Set this to whatever GPU your team/machine was actually assigned, per the markdown warning right above it.\n2. **`run_name`** in the WandB cell (`48c4d138`) \u2014 currently `\"baseline_experiment_1_\"`. Give each run you launch a distinct, descriptive name so it doesn't collide with teammates' runs in the same `wandb_project`.\n3. **`wandb_entity`** in `configs/config_script.yaml` under `logging:` \u2014 `null` logs to your personal account; set it only if you're meant to log into a shared team entity/project.\n4. **`s3_cache_dir`** in `configs/config_script.yaml` (`data:` section) \u2014 it's currently committed as `/home/jovyan/scratch_space/surya_cache`. If that path is common to everyone's container that's fine, but ADAPTING.md's stated preference is to *not* bake this into the committed YAML \u2014 use `--s3-cache-dir` on the CLI or `export SURYA_WS_CACHE_DIR=...` per-machine instead, so the committed file stays generic.\n5. If you start checkpointing (later notebooks), watch `output.ckpt_dir` / `output.s3_prefix` \u2014 give yourself a unique prefix so you don't overwrite a teammate's `best.ckpt`.\n\nNothing else in this notebook needs personalizing \u2014 it already imports everything generic from `workshop_infrastructure/` and everything flare-specific from your own `flare_forecast/` modules.",
+      "raw_time": false
+    },
+    {
+      "time": 1789500441.9702373,
+      "sender": "jpereira",
+      "type": "msg",
+      "body": "how do i check what GPU my machine is assigned?",
+      "id": "05f3b7be-d383-4c4e-8b8d-828420a19a3a",
+      "metadata": {
+        "settings": {
+          "__mode__": null
+        },
+        "to_persona": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+        "model": {
+          "settings": {},
+          "id": "sonnet"
+        }
+      },
+      "raw_time": false
+    },
+    {
+      "body": "",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "type": "msg",
+      "raw_time": false,
+      "mentions": [],
+      "id": "de44305e-30be-4a89-b130-03a1864002b7",
+      "metadata": {
+        "tool_calls": [
+          {
+            "tool_call_id": "toolu_bdrk_017bsnPtekMfoDd3idhaWVRt",
+            "raw_output": "index, name, memory.total [MiB], memory.used [MiB], uuid\n0, Tesla T4, 15360 MiB, 0 MiB, GPU-8c26e74b-44ab-c27f-aea9-0b93e61f7edb\n---\nCUDA_VISIBLE_DEVICES=\n---\nNVIDIA_VISIBLE_DEVICES=void\nNVIDIA_DRIVER_CAPABILITIES=compute,utility\nLD_LIBRARY_PATH=:/usr/local/nvidia/lib64\nNVIDIA_CTK_LIBCUDA_DIR=/usr/lib64\nPATH=/srv/conda/envs/notebook/bin:/srv/conda/condabin:/home/jovyan/.local/bin:/srv/conda/envs/notebook/bin:/srv/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/nvidia/bin",
+            "kind": "execute",
+            "status": "completed",
+            "session_id": "d42cf5e5-0a8b-401e-8050-f7fc5c0da306",
+            "selected_option_id": "allow-once",
+            "title": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,uuid --format=csv 2>&1; echo \"---\"; echo \"CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES\"; echo \"---\"; env | grep -i -E \"cuda|gpu|nvidia\" 2>&1",
+            "raw_input": {
+              "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,uuid --format=csv 2>&1; echo \"---\"; echo \"CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES\"; echo \"---\"; env | grep -i -E \"cuda|gpu|nvidia\" 2>&1"
+            },
+            "permission_status": "resolved",
+            "permission_options": [
+              {
+                "name": "Yes",
+                "kind": "allow_once",
+                "option_id": "allow-once"
+              },
+              {
+                "kind": "reject_once",
+                "option_id": "reject",
+                "name": "No"
+              }
+            ]
+          }
+        ]
+      },
+      "time": 1789500445.8932116
+    },
+    {
+      "id": "b093a4a3-cfcb-49d9-873a-ed6ad2b90c9a",
+      "mentions": [],
+      "time": 1789500455.0067863,
+      "type": "msg",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "raw_time": false,
+      "body": "Run `nvidia-smi` \u2014 that's the direct way. On this machine it shows a single GPU:\n\n```\nindex=0, Tesla T4, 15360 MiB, currently 0 MiB used, uuid=GPU-8c26e74b-...\n```\n\nSince there's only one GPU visible on this container, `CUDA_VISIBLE_DEVICES = \"0\"` (what's already in the notebook) is correct here \u2014 there's nothing else to pick between.\n\nA couple of notes:\n- Your shell's `CUDA_VISIBLE_DEVICES` is currently unset (empty), so this container isn't pre-restricting you \u2014 the notebook's own `os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"` line is what pins it.\n- If your team's setup has one JupyterHub container per person (each with its own single GPU, like this one), there's no real \"assignment\" to check beyond `nvidia-smi` showing what's there. If instead you're on a shared multi-GPU box, run `nvidia-smi` and look at `memory.used`/running processes per index to see which ones are already busy, and check with whoever set up the workshop for which index is yours \u2014 that assignment isn't visible from environment variables alone."
+    },
+    {
+      "sender": "jpereira",
+      "raw_time": false,
+      "body": "how do i find my wandb directory to save to?",
+      "time": 1789500592.8730342,
+      "metadata": {
+        "model": {
+          "settings": {},
+          "id": "sonnet"
+        },
+        "settings": {
+          "__mode__": null
+        },
+        "to_persona": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona"
+      },
+      "type": "msg",
+      "id": "dd3d9b16-cd4b-41a7-92ea-b02a79c84e75"
+    },
+    {
+      "time": 1789500598.1674752,
+      "id": "0eb171df-9ac9-42ae-9032-ba46f159fc34",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "metadata": {
+        "tool_calls": [
+          {
+            "title": "pwd && ls -la wandb 2>&1 | head -30; echo \"---runs---\"; ls -la runs 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---home---\"; echo $HOME",
+            "tool_call_id": "toolu_bdrk_01HRxQZuAZDdzXNPrwnqmDEf",
+            "status": "completed",
+            "raw_input": {
+              "command": "pwd && ls -la wandb 2>&1 | head -30; echo \"---runs---\"; ls -la runs 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---home---\"; echo $HOME"
+            },
+            "raw_output": "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast\nls: cannot access 'wandb': No such file or directory\n---runs---\nls: cannot access 'runs': No such file or directory\n---whoami---\njovyan\n---home---\n/home/jovyan",
+            "kind": "execute"
+          }
+        ]
+      },
+      "mentions": [],
+      "type": "msg",
+      "body": "",
+      "raw_time": false
+    },
+    {
+      "type": "msg",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "mentions": [],
+      "raw_time": false,
+      "body": "That's the `save_dir` arg in the `WandbLogger` cell (`48c4d138`):\n\n```python\nwandb_logger = WandbLogger(\n    ...\n    save_dir=\"./wandb/wandb_tmp\",\n)\n```\n\nIt's a relative path, resolved against the notebook kernel's working directory \u2014 which for a Jupyter notebook is the directory the `.ipynb` file lives in, i.e. `/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast`. So once you run that cell, it'll create `flare_forecast/wandb/wandb_tmp/` (it doesn't exist yet \u2014 you haven't run this notebook in this session).\n\nThis is local scratch storage for wandb's run cache before/while it syncs to the cloud \u2014 it's not shared with teammates just because the repo is shared (it lives under your own `/home/jovyan`, not in git). So the default is already fine to use as-is; you don't need to personalize it unless you want it outside the repo tree (e.g. to keep it off anything that might get committed, or to point it at your scratch space instead of home):\n\n```python\nsave_dir=\"/home/jovyan/scratch_space/wandb\",\n```\n\nSeparately, this is *not* the same as which WandB account/project the run is logged to \u2014 that's `wandb_entity`/`wandb_project` in `configs/config_script.yaml`, which we covered earlier.",
+      "id": "839fd091-e958-4267-b6a8-749ebcc9cb8c",
+      "time": 1789500611.6209543
+    },
+    {
+      "time": 1789572587.073525,
+      "raw_time": false,
+      "type": "msg",
+      "body": "Two different concerns here \u2014 your own notebook, and something already off in the shared template. Quick flag first: `git status` shows you've locally modified `downstream_apps/template/configs/config_script.yaml` (setting `s3_cache_dir` to your home path) \u2014 that's the **shared template**, not your `flare_forecast` copy. That's exactly the kind of edit you were warned about; it's currently uncommitted, so just don't stage/commit it (or revert with `git checkout -- ../template/configs/config_script.yaml`).\n\nYour `flare_forecast` app is already its own fork (own `FlareDSDataset`, `FlareMetrics`, own config), so the dataset/model/metrics code is not something you need to fork further \u2014 it's the shared code for this specific task. What's actually machine/person-specific in **`1_baseline_template.ipynb`**:\n\n1. **`os.environ[\"CUDA_VISIBLE_DEVICES\"]`** (cell `6d6af87a`) \u2014 currently `\"0\"`. Set this to whatever GPU your team/machine was actually assigned, per the markdown warning right above it.\n2. **`run_name`** in the WandB cell (`48c4d138`) \u2014 currently `\"baseline_experiment_1_\"`. Give each run you launch a distinct, descriptive name so it doesn't collide with teammates' runs in the same `wandb_project`.\n3. **`wandb_entity`** in `configs/config_script.yaml` under `logging:` \u2014 `null` logs to your personal account; set it only if you're meant to log into a shared team entity/project.\n4. **`s3_cache_dir`** in `configs/config_script.yaml` (`data:` section) \u2014 it's currently committed as `/home/jovyan/scratch_space/surya_cache`. If that path is common to everyone's container that's fine, but ADAPTING.md's stated preference is to *not* bake this into the committed YAML \u2014 use `--s3-cache-dir` on the CLI or `export SURYA_WS_CACHE_DIR=...` per-machine instead, so the committed file stays generic.\n5. If you start checkpointing (later notebooks), watch `output.ckpt_dir` / `output.s3_prefix` \u2014 give yourself a unique prefix so you don't overwrite a teammate's `best.ckpt`.\n\nNothing else in this notebook needs personalizing \u2014 it already imports everything generic from `workshop_infrastructure/` and everything flare-specific from your own `flare_forecast/` modules.",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "id": "e550c1c0-6433-4518-8b05-23558594d72e",
+      "mentions": []
+    },
+    {
+      "time": 1789572587.0747874,
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "type": "msg",
+      "body": "",
+      "id": "834a57ca-dee0-40c8-b39e-abf46b4bef24",
+      "raw_time": false,
+      "metadata": {
+        "tool_calls": [
+          {
+            "raw_input": {
+              "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,uuid --format=csv 2>&1; echo \"---\"; echo \"CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES\"; echo \"---\"; env | grep -i -E \"cuda|gpu|nvidia\" 2>&1"
+            },
+            "kind": "execute",
+            "status": "completed",
+            "tool_call_id": "toolu_bdrk_017bsnPtekMfoDd3idhaWVRt",
+            "raw_output": "index, name, memory.total [MiB], memory.used [MiB], uuid\n0, Tesla T4, 15360 MiB, 0 MiB, GPU-8c26e74b-44ab-c27f-aea9-0b93e61f7edb\n---\nCUDA_VISIBLE_DEVICES=\n---\nNVIDIA_VISIBLE_DEVICES=void\nNVIDIA_DRIVER_CAPABILITIES=compute,utility\nLD_LIBRARY_PATH=:/usr/local/nvidia/lib64\nNVIDIA_CTK_LIBCUDA_DIR=/usr/lib64\nPATH=/srv/conda/envs/notebook/bin:/srv/conda/condabin:/home/jovyan/.local/bin:/srv/conda/envs/notebook/bin:/srv/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/nvidia/bin",
+            "title": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,uuid --format=csv 2>&1; echo \"---\"; echo \"CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES\"; echo \"---\"; env | grep -i -E \"cuda|gpu|nvidia\" 2>&1"
+          }
+        ]
+      },
+      "mentions": []
+    },
+    {
+      "id": "1afcf190-5f22-4d96-b552-d31c5ba1f2d0",
+      "raw_time": false,
+      "time": 1789572587.0762136,
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "type": "msg",
+      "mentions": [],
+      "body": "Run `nvidia-smi` \u2014 that's the direct way. On this machine it shows a single GPU:\n\n```\nindex=0, Tesla T4, 15360 MiB, currently 0 MiB used, uuid=GPU-8c26e74b-...\n```\n\nSince there's only one GPU visible on this container, `CUDA_VISIBLE_DEVICES = \"0\"` (what's already in the notebook) is correct here \u2014 there's nothing else to pick between.\n\nA couple of notes:\n- Your shell's `CUDA_VISIBLE_DEVICES` is currently unset (empty), so this container isn't pre-restricting you \u2014 the notebook's own `os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"0\"` line is what pins it.\n- If your team's setup has one JupyterHub container per person (each with its own single GPU, like this one), there's no real \"assignment\" to check beyond `nvidia-smi` showing what's there. If instead you're on a shared multi-GPU box, run `nvidia-smi` and look at `memory.used`/running processes per index to see which ones are already busy, and check with whoever set up the workshop for which index is yours \u2014 that assignment isn't visible from environment variables alone."
+    },
+    {
+      "raw_time": false,
+      "id": "2246260f-d556-4b94-8c0e-aa5a1aab1692",
+      "metadata": {
+        "tool_calls": [
+          {
+            "raw_input": {
+              "command": "pwd && ls -la wandb 2>&1 | head -30; echo \"---runs---\"; ls -la runs 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---home---\"; echo $HOME"
+            },
+            "title": "pwd && ls -la wandb 2>&1 | head -30; echo \"---runs---\"; ls -la runs 2>&1 | head -20; echo \"---whoami---\"; whoami; echo \"---home---\"; echo $HOME",
+            "tool_call_id": "toolu_bdrk_01HRxQZuAZDdzXNPrwnqmDEf",
+            "raw_output": "/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast\nls: cannot access 'wandb': No such file or directory\n---runs---\nls: cannot access 'runs': No such file or directory\n---whoami---\njovyan\n---home---\n/home/jovyan",
+            "kind": "execute",
+            "status": "completed"
+          }
+        ]
+      },
+      "mentions": [],
+      "type": "msg",
+      "time": 1789572587.077374,
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "body": ""
+    },
+    {
+      "body": "That's the `save_dir` arg in the `WandbLogger` cell (`48c4d138`):\n\n```python\nwandb_logger = WandbLogger(\n    ...\n    save_dir=\"./wandb/wandb_tmp\",\n)\n```\n\nIt's a relative path, resolved against the notebook kernel's working directory \u2014 which for a Jupyter notebook is the directory the `.ipynb` file lives in, i.e. `/home/jovyan/tmp/surya_workshop/downstream_apps/flare_forecast`. So once you run that cell, it'll create `flare_forecast/wandb/wandb_tmp/` (it doesn't exist yet \u2014 you haven't run this notebook in this session).\n\nThis is local scratch storage for wandb's run cache before/while it syncs to the cloud \u2014 it's not shared with teammates just because the repo is shared (it lives under your own `/home/jovyan`, not in git). So the default is already fine to use as-is; you don't need to personalize it unless you want it outside the repo tree (e.g. to keep it off anything that might get committed, or to point it at your scratch space instead of home):\n\n```python\nsave_dir=\"/home/jovyan/scratch_space/wandb\",\n```\n\nSeparately, this is *not* the same as which WandB account/project the run is logged to \u2014 that's `wandb_entity`/`wandb_project` in `configs/config_script.yaml`, which we covered earlier.",
+      "type": "msg",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "raw_time": false,
+      "id": "993e1d56-1a4e-4f92-a7b6-a48b29470165",
+      "time": 1789572587.0787826,
+      "mentions": []
+    },
+    {
+      "raw_time": false,
+      "metadata": {
+        "settings": {},
+        "model": {
+          "settings": {},
+          "id": null
+        },
+        "to_persona": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona"
+      },
+      "time": 1789572635.3587916,
+      "body": "what command in terminal to check how do i check what GPU my machine is assigned?\n\n",
+      "type": "msg",
+      "id": "6556866f-0e14-41dc-99ab-a2c7b9531f0d",
+      "sender": "jpereira"
+    },
+    {
+      "mentions": [],
+      "time": 1789572640.8120878,
+      "type": "msg",
+      "raw_time": false,
+      "id": "278065e8-ade4-4202-87ab-f0b9dc29dfc1",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "body": "Run:\n\n```bash\nnvidia-smi\n```\n\nOr for just the index/name/memory in a compact table:\n\n```bash\nnvidia-smi --query-gpu=index,name,memory.total,memory.used --format=csv\n```\n\nOn this machine that showed a single GPU at index `0` (Tesla T4), which is why `CUDA_VISIBLE_DEVICES = \"0\"` in the notebook is correct here \u2014 there's only one to pick."
+    }
+  ],
+  "users": {
+    "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona",
+      "color": null,
+      "name": "Copilot",
+      "display_name": "Copilot",
+      "bot": true,
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
+      "initials": null
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::CodexAcpPersona": {
+      "color": null,
+      "bot": true,
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACodexAcpPersona",
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CodexAcpPersona",
+      "initials": null,
+      "name": "Codex",
+      "display_name": "Codex"
+    },
+    "jupyter-ai-personas::jupyter_ai_jupyternaut::JupyternautPersona": {
+      "color": null,
+      "display_name": "Jupyternaut",
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_jupyternaut%3A%3AJupyternautPersona",
+      "username": "jupyter-ai-personas::jupyter_ai_jupyternaut::JupyternautPersona",
+      "name": "Jupyternaut",
+      "bot": true,
+      "initials": null
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona": {
+      "color": null,
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3AClaudeAcpPersona",
+      "name": "Claude",
+      "bot": true,
+      "initials": null,
+      "display_name": "Claude",
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona"
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::MistralVibeAcpPersona": {
+      "bot": true,
+      "color": null,
+      "initials": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::MistralVibeAcpPersona",
+      "name": "Mistral Vibe",
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3AMistralVibeAcpPersona",
+      "display_name": "Mistral Vibe"
+    },
+    "jpereira": {
+      "bot": false,
+      "mention_name": "jpereira",
+      "name": "jpereira",
+      "username": "jpereira",
+      "avatar_url": null,
+      "initials": "j",
+      "display_name": "jpereira",
+      "color": "var(--jp-collaborator-color5)"
+    }
+  },
+  "attachments": {},
+  "metadata": {
+    "acp_session_ids": {
+      "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona": "d42cf5e5-0a8b-401e-8050-f7fc5c0da306"
+    },
+    "acp_config_options": {
+      "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona": {
+        "model": "sonnet"
+      }
+    },
+    "id": "db4a6456-7453-4eff-8f2a-01b13237f0f7"
+  }
+}
