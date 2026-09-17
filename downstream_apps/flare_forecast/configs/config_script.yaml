@@ -46,7 +46,7 @@ data:
   flare_index_path: ../data/hek_flare_catalog.csv
 #  ds_time_column: start_time      # Column in the flare catalog used as the event timestamp
   ds_time_column: peak_time      # Column in the flare catalog used as the event timestamp
-  ds_time_tolerance: 4d           # Max allowed gap between catalog and Surya timestamps
+  ds_time_tolerance: 24m           # Max allowed gap between catalog and Surya timestamps
   ds_match_direction: forward     # "forward": use solar state *before* the flare (causal)
 
   # -- Local data (only needed when the index contains relative local paths) --
