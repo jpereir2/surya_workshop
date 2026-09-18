@@ -1,0 +1,57 @@
+{
+  "messages": [],
+  "users": {
+    "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
+      "name": "Copilot",
+      "initials": null,
+      "color": null,
+      "bot": true,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona",
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
+      "display_name": "Copilot"
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::MistralVibeAcpPersona": {
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3AMistralVibeAcpPersona",
+      "display_name": "Mistral Vibe",
+      "color": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::MistralVibeAcpPersona",
+      "initials": null,
+      "name": "Mistral Vibe",
+      "bot": true
+    },
+    "jupyter-ai-personas::jupyter_ai_jupyternaut::JupyternautPersona": {
+      "bot": true,
+      "display_name": "Jupyternaut",
+      "username": "jupyter-ai-personas::jupyter_ai_jupyternaut::JupyternautPersona",
+      "name": "Jupyternaut",
+      "initials": null,
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_jupyternaut%3A%3AJupyternautPersona",
+      "color": null
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::CodexAcpPersona": {
+      "initials": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CodexAcpPersona",
+      "name": "Codex",
+      "display_name": "Codex",
+      "color": null,
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACodexAcpPersona",
+      "bot": true
+    },
+    "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona": {
+      "color": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona",
+      "initials": null,
+      "bot": true,
+      "display_name": "Claude",
+      "name": "Claude",
+      "avatar_url": "/user/jpereira/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3AClaudeAcpPersona"
+    }
+  },
+  "attachments": {},
+  "metadata": {
+    "acp_session_ids": {
+      "jupyter-ai-personas::jupyter_ai_acp_client::ClaudeAcpPersona": "57083a54-61ab-4d26-9844-78ecb941fac7"
+    },
+    "id": "86a3524b-917e-48f4-aaec-de23c75d5e40"
+  }
+}
