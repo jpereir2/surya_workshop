@@ -1,0 +1,97 @@
+<!doctype html><meta charset='utf-8'><title>Event comparison</title><style>:root{color-scheme:light dark}body{font:15px/1.5 system-ui,sans-serif;margin:2rem}table{border-collapse:collapse;font-size:13px}th,td{border:1px solid #8884;padding:.25rem .5rem}figure{margin:1.5rem 0}figcaption{font-size:13px;opacity:.8}img{width:100%;border:1px solid #8884}</style><h1>Selected events, upright vs flipped</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>weights</th>
+      <th>split</th>
+      <th>i</th>
+      <th>orientation</th>
+      <th>GOES_class</th>
+      <th>peak_time</th>
+      <th>time</th>
+      <th>mse_model</th>
+      <th>mse_persistence</th>
+      <th>skill</th>
+      <th>pool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pretrained</td>
+      <td>2022</td>
+      <td>8885</td>
+      <td>UPRIGHT</td>
+      <td>X1.3</td>
+      <td>2022-03-30T17:37:00</td>
+      <td>2022-03-30 17:36</td>
+      <td>1.4106</td>
+      <td>1.7119</td>
+      <td>0.1760</td>
+      <td>val-pool</td>
+    </tr>
+    <tr>
+      <td>pretrained</td>
+      <td>2022</td>
+      <td>8885</td>
+      <td>FLIPPED</td>
+      <td>X1.3</td>
+      <td>2022-03-30T17:37:00</td>
+      <td>2022-03-30 17:36</td>
+      <td>1.4673</td>
+      <td>1.7119</td>
+      <td>0.1428</td>
+      <td>val-pool</td>
+    </tr>
+    <tr>
+      <td>ckpt_q1_win60_n64</td>
+      <td>2022</td>
+      <td>8885</td>
+      <td>UPRIGHT</td>
+      <td>X1.3</td>
+      <td>2022-03-30T17:37:00</td>
+      <td>2022-03-30 17:36</td>
+      <td>1.2740</td>
+      <td>1.7119</td>
+      <td>0.2558</td>
+      <td>val-pool</td>
+    </tr>
+    <tr>
+      <td>ckpt_q1_win60_n64</td>
+      <td>2022</td>
+      <td>8885</td>
+      <td>FLIPPED</td>
+      <td>X1.3</td>
+      <td>2022-03-30T17:37:00</td>
+      <td>2022-03-30 17:36</td>
+      <td>1.2915</td>
+      <td>1.7119</td>
+      <td>0.2456</td>
+      <td>val-pool</td>
+    </tr>
+    <tr>
+      <td>ckpt_big256</td>
+      <td>2022</td>
+      <td>8885</td>
+      <td>UPRIGHT</td>
+      <td>X1.3</td>
+      <td>2022-03-30T17:37:00</td>
+      <td>2022-03-30 17:36</td>
+      <td>1.2712</td>
+      <td>1.7119</td>
+      <td>0.2574</td>
+      <td>val-pool</td>
+    </tr>
+    <tr>
+      <td>ckpt_big256</td>
+      <td>2022</td>
+      <td>8885</td>
+      <td>FLIPPED</td>
+      <td>X1.3</td>
+      <td>2022-03-30T17:37:00</td>
+      <td>2022-03-30 17:36</td>
+      <td>1.2896</td>
+      <td>1.7119</td>
+      <td>0.2467</td>
+      <td>val-pool</td>
+    </tr>
+  </tbody>
+</table><figure><figcaption>pretrained &middot; X1.3 2022-03-30T17:37:00 &middot; UPRIGHT &middot; MSE 1.4106 &middot; skill +17.6%</figcaption><a href="pretrained__2022__X1.3__2022-03-30T1737__UPRIGHT__normal__w60_36__s4.png"><img src="pretrained__2022__X1.3__2022-03-30T1737__UPRIGHT__normal__w60_36__s4.png"></a></figure><figure><figcaption>pretrained &middot; X1.3 2022-03-30T17:37:00 &middot; FLIPPED &middot; MSE 1.4673 &middot; skill +14.3%</figcaption><a href="pretrained__2022__X1.3__2022-03-30T1737__FLIPPED__normal__w60_36__s4.png"><img src="pretrained__2022__X1.3__2022-03-30T1737__FLIPPED__normal__w60_36__s4.png"></a></figure><figure><figcaption>ckpt_q1_win60_n64 &middot; X1.3 2022-03-30T17:37:00 &middot; UPRIGHT &middot; MSE 1.2740 &middot; skill +25.6%</figcaption><a href="ckpt_q1_win60_n64__2022__X1.3__2022-03-30T1737__UPRIGHT__normal__w60_36__s4.png"><img src="ckpt_q1_win60_n64__2022__X1.3__2022-03-30T1737__UPRIGHT__normal__w60_36__s4.png"></a></figure><figure><figcaption>ckpt_q1_win60_n64 &middot; X1.3 2022-03-30T17:37:00 &middot; FLIPPED &middot; MSE 1.2915 &middot; skill +24.6%</figcaption><a href="ckpt_q1_win60_n64__2022__X1.3__2022-03-30T1737__FLIPPED__normal__w60_36__s4.png"><img src="ckpt_q1_win60_n64__2022__X1.3__2022-03-30T1737__FLIPPED__normal__w60_36__s4.png"></a></figure><figure><figcaption>ckpt_big256 &middot; X1.3 2022-03-30T17:37:00 &middot; UPRIGHT &middot; MSE 1.2712 &middot; skill +25.7%</figcaption><a href="ckpt_big256__2022__X1.3__2022-03-30T1737__UPRIGHT__normal__w60_36__s4.png"><img src="ckpt_big256__2022__X1.3__2022-03-30T1737__UPRIGHT__normal__w60_36__s4.png"></a></figure><figure><figcaption>ckpt_big256 &middot; X1.3 2022-03-30T17:37:00 &middot; FLIPPED &middot; MSE 1.2896 &middot; skill +24.7%</figcaption><a href="ckpt_big256__2022__X1.3__2022-03-30T1737__FLIPPED__normal__w60_36__s4.png"><img src="ckpt_big256__2022__X1.3__2022-03-30T1737__FLIPPED__normal__w60_36__s4.png"></a></figure>

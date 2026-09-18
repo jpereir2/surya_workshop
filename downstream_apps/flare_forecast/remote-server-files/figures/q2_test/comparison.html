@@ -1,0 +1,135 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Surya flip experiment &mdash; comparison</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem; max-width: 100%; }
+  h1 { font-size: 1.4rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; border-bottom: 1px solid #8884; }
+  .grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+  figure { margin: 0; }
+  figcaption { font-size: 13px; opacity: .8; margin-bottom: .3rem; }
+  img { width: 100%; height: auto; border: 1px solid #8884; }
+  table { border-collapse: collapse; font-size: 13px; }
+  th, td { border: 1px solid #8884; padding: .25rem .5rem; text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+</style>
+<h1>Surya flip experiment</h1>
+<p>Each event rendered with stock pretrained weights and with the fine-tuned
+checkpoint, upright and flipped. Click a figure to open it full size.</p>
+<h2>Summary</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>weights</th>
+      <th>split</th>
+      <th>i</th>
+      <th>orientation</th>
+      <th>GOES_class</th>
+      <th>peak_time</th>
+      <th>time</th>
+      <th>mse_model</th>
+      <th>mse_persistence</th>
+      <th>skill</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pretrained</td>
+      <td>test</td>
+      <td>1</td>
+      <td>UPRIGHT</td>
+      <td>M1.7</td>
+      <td>2023-01-19T10:12:00</td>
+      <td>2023-01-19 10:12</td>
+      <td>0.4765</td>
+      <td>1.1865</td>
+      <td>0.5984</td>
+    </tr>
+    <tr>
+      <td>pretrained</td>
+      <td>test</td>
+      <td>1</td>
+      <td>FLIPPED</td>
+      <td>M1.7</td>
+      <td>2023-01-19T10:12:00</td>
+      <td>2023-01-19 10:12</td>
+      <td>0.5016</td>
+      <td>1.1865</td>
+      <td>0.5772</td>
+    </tr>
+    <tr>
+      <td>pretrained</td>
+      <td>test</td>
+      <td>10</td>
+      <td>UPRIGHT</td>
+      <td>M1.3</td>
+      <td>2023-01-25T17:01:00</td>
+      <td>2023-01-25 17:00</td>
+      <td>0.4733</td>
+      <td>0.9080</td>
+      <td>0.4788</td>
+    </tr>
+    <tr>
+      <td>pretrained</td>
+      <td>test</td>
+      <td>10</td>
+      <td>FLIPPED</td>
+      <td>M1.3</td>
+      <td>2023-01-25T17:01:00</td>
+      <td>2023-01-25 17:00</td>
+      <td>0.5179</td>
+      <td>0.9080</td>
+      <td>0.4296</td>
+    </tr>
+    <tr>
+      <td>ckpt_q2b</td>
+      <td>test</td>
+      <td>1</td>
+      <td>UPRIGHT</td>
+      <td>M1.7</td>
+      <td>2023-01-19T10:12:00</td>
+      <td>2023-01-19 10:12</td>
+      <td>0.4804</td>
+      <td>1.1865</td>
+      <td>0.5951</td>
+    </tr>
+    <tr>
+      <td>ckpt_q2b</td>
+      <td>test</td>
+      <td>1</td>
+      <td>FLIPPED</td>
+      <td>M1.7</td>
+      <td>2023-01-19T10:12:00</td>
+      <td>2023-01-19 10:12</td>
+      <td>0.4890</td>
+      <td>1.1865</td>
+      <td>0.5878</td>
+    </tr>
+    <tr>
+      <td>ckpt_q2b</td>
+      <td>test</td>
+      <td>10</td>
+      <td>UPRIGHT</td>
+      <td>M1.3</td>
+      <td>2023-01-25T17:01:00</td>
+      <td>2023-01-25 17:00</td>
+      <td>0.4370</td>
+      <td>0.9080</td>
+      <td>0.5187</td>
+    </tr>
+    <tr>
+      <td>ckpt_q2b</td>
+      <td>test</td>
+      <td>10</td>
+      <td>FLIPPED</td>
+      <td>M1.3</td>
+      <td>2023-01-25T17:01:00</td>
+      <td>2023-01-25 17:00</td>
+      <td>0.4587</td>
+      <td>0.9080</td>
+      <td>0.4948</td>
+    </tr>
+  </tbody>
+</table>
+<section><h2>M1.3 &mdash; 2023-01-25T17:01:00</h2><div class="grid"><figure><figcaption>ckpt_q2b &middot; FLIPPED &middot; MSE 0.4587 &middot; skill +49.5%</figcaption><a href="ckpt_q2b__test__M1.3__2023-01-25T1701__FLIPPED__normal__w120_60__s4.png"><img src="ckpt_q2b__test__M1.3__2023-01-25T1701__FLIPPED__normal__w120_60__s4.png"></a></figure><figure><figcaption>ckpt_q2b &middot; UPRIGHT &middot; MSE 0.4370 &middot; skill +51.9%</figcaption><a href="ckpt_q2b__test__M1.3__2023-01-25T1701__UPRIGHT__normal__w120_60__s4.png"><img src="ckpt_q2b__test__M1.3__2023-01-25T1701__UPRIGHT__normal__w120_60__s4.png"></a></figure><figure><figcaption>pretrained &middot; FLIPPED &middot; MSE 0.5179 &middot; skill +43.0%</figcaption><a href="pretrained__test__M1.3__2023-01-25T1701__FLIPPED__normal__w120_60__s4.png"><img src="pretrained__test__M1.3__2023-01-25T1701__FLIPPED__normal__w120_60__s4.png"></a></figure><figure><figcaption>pretrained &middot; UPRIGHT &middot; MSE 0.4733 &middot; skill +47.9%</figcaption><a href="pretrained__test__M1.3__2023-01-25T1701__UPRIGHT__normal__w120_60__s4.png"><img src="pretrained__test__M1.3__2023-01-25T1701__UPRIGHT__normal__w120_60__s4.png"></a></figure></div></section><section><h2>M1.7 &mdash; 2023-01-19T10:12:00</h2><div class="grid"><figure><figcaption>ckpt_q2b &middot; FLIPPED &middot; MSE 0.4890 &middot; skill +58.8%</figcaption><a href="ckpt_q2b__test__M1.7__2023-01-19T1012__FLIPPED__normal__w120_60__s4.png"><img src="ckpt_q2b__test__M1.7__2023-01-19T1012__FLIPPED__normal__w120_60__s4.png"></a></figure><figure><figcaption>ckpt_q2b &middot; UPRIGHT &middot; MSE 0.4804 &middot; skill +59.5%</figcaption><a href="ckpt_q2b__test__M1.7__2023-01-19T1012__UPRIGHT__normal__w120_60__s4.png"><img src="ckpt_q2b__test__M1.7__2023-01-19T1012__UPRIGHT__normal__w120_60__s4.png"></a></figure><figure><figcaption>pretrained &middot; FLIPPED &middot; MSE 0.5016 &middot; skill +57.7%</figcaption><a href="pretrained__test__M1.7__2023-01-19T1012__FLIPPED__normal__w120_60__s4.png"><img src="pretrained__test__M1.7__2023-01-19T1012__FLIPPED__normal__w120_60__s4.png"></a></figure><figure><figcaption>pretrained &middot; UPRIGHT &middot; MSE 0.4765 &middot; skill +59.8%</figcaption><a href="pretrained__test__M1.7__2023-01-19T1012__UPRIGHT__normal__w120_60__s4.png"><img src="pretrained__test__M1.7__2023-01-19T1012__UPRIGHT__normal__w120_60__s4.png"></a></figure></div></section>

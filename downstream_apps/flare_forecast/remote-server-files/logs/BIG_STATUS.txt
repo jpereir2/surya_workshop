@@ -1,0 +1,7 @@
+[04:01:50] starting 256-flare run
+[04:01:55] cache cleared, 196G free
+[04:01:55] purger running as PID 14465
+[04:58:52] purger stopped
+[04:58:52] checkpoint written: 1.8G
+[05:02:54] plotted -> figures/big256_test/
+[05:02:54] done. 115G free

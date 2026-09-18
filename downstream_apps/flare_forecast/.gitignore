@@ -1,0 +1,13 @@
+*.pem
+*.ckpt
+*.pt
+assets/
+wandb/
+runs/
+jpereira/
+data/
+__pycache__/
+.ipynb_checkpoints/
+logs/data/
+old-chats-notebooks/
+*.chat

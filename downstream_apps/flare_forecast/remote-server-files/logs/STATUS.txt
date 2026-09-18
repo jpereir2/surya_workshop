@@ -1,0 +1,19 @@
+[02:01:01] 2x2 ladder started
+[02:01:01] free RAM: 244 GB | disk: 202G free
+[02:01:01] === q1_win60_n64: train=64 epochs=1 cap=45m inputs=[-60,-36] flip_p=0.5 ===
+[02:14:50] q1_win60_n64: trained -> ckpt_q1_win60_n64.ckpt
+[02:14:58] q1_win60_n64: plotting test FAILED, see logs/plot_q1_win60_n64_test.log
+[02:15:06] q1_win60_n64: plotting val FAILED, see logs/plot_q1_win60_n64_val.log
+[02:15:06] q1_win60_n64: COMPLETE
+[02:15:06] === q2_win120_n64: train=64 epochs=1 cap=45m inputs=[-120,-60] flip_p=0.5 ===
+[02:28:13] q2_win120_n64: trained -> ckpt_q2_win120_n64.ckpt
+[02:31:09] q2_win120_n64: plotting test FAILED, see logs/plot_q2_win120_n64_test.log
+[02:31:10] q2_win120_n64: plotting val FAILED, see logs/plot_q2_win120_n64_val.log
+[02:31:10] q2_win120_n64: COMPLETE
+[02:31:10] === d3_win60_n256: train=256 epochs=2 cap=120m inputs=[-60,-36] flip_p=0.5 ===
+[02:31:31] d3_win60_n256: FAILED, no checkpoint. See logs/train_d3_win60_n256.log
+[02:31:31] === d4_win120_n256: train=256 epochs=2 cap=120m inputs=[-120,-60] flip_p=0.5 ===
+[02:31:53] d4_win120_n256: FAILED, no checkpoint. See logs/train_d4_win120_n256.log
+[02:31:53] === ladder finished ===
+figures/q1_win60_n64_test/
+figures/q1_win60_n64_val/
